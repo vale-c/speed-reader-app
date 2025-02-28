@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import { observer } from 'mobx-react-lite';
 import { StoreProvider, useSpeedReaderStore } from '@/stores/StoreProvider';
-import SpeedReader from '@/components/SpeedReader';
 import WordDisplay from '@/components/WordDisplay';
 import ReadingControls from '@/components/ReadingControls';
 import TextInput from '@/components/TextInput';
